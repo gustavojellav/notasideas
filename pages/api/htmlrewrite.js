@@ -24,7 +24,7 @@ module.exports = async (req, res) => {
     .replace('<meta name="robots" content="noindex">', '')
     .replace(
       '<link rel="icon" href="/share/static/favicon.ico">',
-      '<link rel="icon" href="/favicon.svg">'
+      '<link rel="icon" href="/favicon.ico">'
     )
     .replace(
       '<link rel="apple-touch-icon" href="/share/static/logo-192.png">',
