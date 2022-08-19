@@ -19,7 +19,7 @@ const Avatar = (props) => (
       width='100%'
       height='100%'
       clipPath='url(#shape)'
-      href='https://images.unsplash.com/photo-1574158622682-e40e69881006?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80'
+      href='https://gustavovallejo.com/hosted/images/0d/cdad110eca4bf99a3a3b89e47a0cba/Captura-de-Pantalla-2020-04-10-a-la-s-15.19.58.png'
       preserveAspectRatio='none'
     ></image>
     <clipPath id='shape'>
