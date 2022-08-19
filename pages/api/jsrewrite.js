@@ -15,7 +15,7 @@ module.exports = async (req, res) => {
     .replace('flex items-start group"', 'flex items-start group",style:{visibility:"hidden"}') // Hide Craft.do upper right corner logo
     .replace(
       /\("svg",\{className:e.className.*id:"blue"\}\)\]\}\)\}\)\}\)/,
-      '("img",{className:e.className,alt:"logo",src:"/favicon.svg"})'
+      '("img",{className:e.className,alt:"logo",src:"/favicon.ico"})'
     ) // Replace loading logo to favicon.svg
 
   let modifyResText
