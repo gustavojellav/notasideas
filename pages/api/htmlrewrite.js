@@ -11,7 +11,7 @@ module.exports = async (req, res) => {
   if (noteItem === undefined) {
     res.statusCode = 404
     res.end(
-      'Notes Not Found, Make sure you have the correct pathname and check your Craft.do setting page.'
+      'Notas no encontradas. ¿Estás intentando entrar a una zona prohibida?'
     )
     return
   }
