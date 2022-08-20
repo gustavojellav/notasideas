@@ -14,7 +14,7 @@ module.exports = async (req, res) => {
     .replace('?utm_source=CraftShare', '') // Replace logo url
     .replace('flex items-start group"', 'flex items-start group",style:{visibility:"hidden"}') // Hide Craft.do upper right corner logo
     .replace(
-      /\("svg",\{className:e.className.*id:"blue"\}\)\]\}\)\}\)\}\)/,
+      /\("svg",\{className:e.className.*id:"white"\}\)\]\}\)\}\)\}\)/,
       '("img",{className:e.className,alt:"logo",src:"https://d2y5h3osumboay.cloudfront.net/7ej4m91hz0lcg5s1iqcspgys8izo"})'
     ) // Replace loading logo to favicon.svg
 
