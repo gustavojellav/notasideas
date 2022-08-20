@@ -235,7 +235,7 @@ const bodyStr = `
           <a href="${BLOG.notesLink.contact}" target="_blank" class="navigation__link">${BLOG.notesNav.contact}</a>
         </li>
       </ul>
-      <p class="footer">©Hombre Superior. Todos los derechos reservados.</p>
+      <p class="footer">Hombre Superior®</p>
     </nav>
 
     <div class="navigation__icon">
