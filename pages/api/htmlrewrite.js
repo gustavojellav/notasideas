@@ -23,12 +23,12 @@ module.exports = async (req, res) => {
   const modifyResText = originResText
     .replace('<meta name="robots" content="noindex">', '')
     .replace(
-      '<link rel="icon" href="/share/static/favicon.ico">',
-      '<link rel="icon" href="/favicon.ico">'
+      '<link rel="icon" href="https://d2y5h3osumboay.cloudfront.net/7ej4m91hz0lcg5s1iqcspgys8izo">',
+      '<link rel="icon" href="https://d2y5h3osumboay.cloudfront.net/7ej4m91hz0lcg5s1iqcspgys8izo">'
     )
     .replace(
-      '<link rel="apple-touch-icon" href="/favicon.ico">',
-      '<link rel="apple-touch-icon" href="/favicon.ico">'
+      '<link rel="apple-touch-icon" href="https://d2y5h3osumboay.cloudfront.net/7ej4m91hz0lcg5s1iqcspgys8izo">',
+      '<link rel="apple-touch-icon" href="https://d2y5h3osumboay.cloudfront.net/7ej4m91hz0lcg5s1iqcspgys8izo">'
     )
     .replace(
       '<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,300i,400,400i,500,500i,700,700i&amp;display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">',
