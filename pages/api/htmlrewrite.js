@@ -203,7 +203,7 @@ const headStr = `
 
 /* You can adjust to use images, rather than svg.
 <a aria-label="toggle navigation menu" class="navigation__logo">
-  <img alt="logo" class="logo" src="https://d2y5h3osumboay.cloudfront.net/7ej4m91hz0lcg5s1iqcspgys8izo" />
+  <img alt="logo" class="logo" src="/favicon.ico" />
 </a>
 */
 
