@@ -203,7 +203,7 @@ const headStr = `
 
 /* You can adjust to use images, rather than svg.
 <a aria-label="toggle navigation menu" class="navigation__logo">
-  <img alt="logo" class="logo" src="/favicon.ico" />
+  <img alt="logo" class="logo" src="https://d2y5h3osumboay.cloudfront.net/7ej4m91hz0lcg5s1iqcspgys8izo" />
 </a>
 */
 
@@ -235,7 +235,7 @@ const bodyStr = `
           <a href="${BLOG.notesLink.contact}" target="_blank" class="navigation__link">${BLOG.notesNav.contact}</a>
         </li>
       </ul>
-      <p class="footer">© CC BY-NC-SA 4.0</p>
+      <p class="footer">©Hombre Superior. Todos los derechos reservados.</p>
     </nav>
 
     <div class="navigation__icon">
