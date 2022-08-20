@@ -11,8 +11,8 @@ class MyDocument extends Document {
     return (
       <Html lang={BLOG.lang}>
         <Head>
-          <link rel='icon' href='https://d2y5h3osumboay.cloudfront.net/7ej4m91hz0lcg5s1iqcspgys8izo' />
-          <link rel='icon' href='https://d2y5h3osumboay.cloudfront.net/7ej4m91hz0lcg5s1iqcspgys8izo' type='image/svg+xml' />
+          <link rel='icon' href='/favicon.ico' />
+          <link rel='icon' href='/favicon.ico' type='image/svg+xml' />
           {BLOG.appearance === 'auto' ? (
             <>
               <meta
